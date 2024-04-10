@@ -4,7 +4,7 @@
 The purpose of this repository is to codify, parameterize, and improve the deployment process for my personal Minecraft Java Edition server. The long term goal is to parameterize this to include the setup of different minecraft versions, mods, and server configs. 
 
 ## Architecture Diagram
-![alt text](img\MinecraftServerArch.drawio.png)
+![alt text](img/MinecraftServerArch.drawio.png)
 
 1. A developer creates the terraform to provision and configure the necessary infrastructure and services for a minecraft server. Min recommended EC2 instance is t2.small 8gb for 2-3 concurrent users.
 
