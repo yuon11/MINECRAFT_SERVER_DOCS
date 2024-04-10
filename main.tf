@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "minecraft_server" {
-  ami           = "your_ami_id"
-  instance_type = "your_instance_type"
+  ami           = "ami-019f9b3318b7155c5"
+  instance_type = "t3.micro"
   
   # Add more configuration as needed (e.g., key_name, subnet_id, security_group_id).
   
